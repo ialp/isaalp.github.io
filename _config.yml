@@ -54,7 +54,7 @@ header_pages:
   - _pages/contact.md
   - _pages/setup.md
   - _pages/github.md
-  - _archive.md
+  - _pages/archive.md
 
 plugins:
   - jekyll-feed
