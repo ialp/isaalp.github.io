@@ -10,21 +10,30 @@ isaalp.com’da yayınlanan tüm yazılar, altta listelenmiştir.
 
 
 
-<h3>Archive</h3>
-  <div class="panel panel-default">
-    <div class="panel-body">
-		{% for post in site.posts %}
-			<div class="row">
-				 <div class="col-sm-4 col-md-4 col-lg-4">
-					 <h5 style="text-align: right">
-					 	{{ post.date | date: "%B %e, %Y" }}
-					 </h5>
-				 </div>
-				 <div class="col-sm-8 col-md-8 col-lg-8">
-					 <h5 style="text-align: left">
-					 	<strong><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></strong>
-					 </h5>
-				 </div>
-			</div>
-	    {% endfor %}
-	</div>
+<div class="archive">
+  <div class="timeline" id="timeline">
+    {% for post in site.posts %}
+    {% unless post.next %}
+    <div class="archive-title">
+      <h4 class="archive-year">{{ post.date | date: '%Y' }}</h4>
+    </div>
+
+    <ul>
+    {% else %}
+      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+    {% if year != nyear %}
+    </ul>
+    <div class="archive-title">
+      <h4 class="archive-year">{{ post.date | date: '%Y' }}</h4>
+    </div>
+
+    <ul>
+    {% endif %}
+    {% endunless %}
+    <li>
+      <div style="width:60px;float:left;">{{ post.date | date: "%b %-d" }}</div> <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+    </ul>
+
+  </div>
