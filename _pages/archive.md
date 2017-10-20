@@ -7,7 +7,6 @@ permalink: /tum-yazilar/
 Tüm Yazılar
 isaalp.com’da yayınlanan tüm yazılar, altta listelenmiştir.
 
-<h1>Archive of posts from {{ page.date | date: "%Y" }}</h1>
 
 <ul class="posts">
 {% for post in page.posts %}
