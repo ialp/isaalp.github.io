@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tüm Yazılar
-permalink: /blog/
+permalink: /tum-yazilar/
 ---
 
 Tüm Yazılar
