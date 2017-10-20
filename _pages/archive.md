@@ -5,6 +5,22 @@ permalink: /archive/
 ---
 
 
+
+<section class="archive-post-list">
+
+   {% for post in site.posts %}
+       {% assign currentDate = post.date | date: "%Y" %}
+       {% if currentDate != myDate %}
+           
+       {% endif %}
+   {% endfor %}
+
+</section>
+
+----
+
+
+
 {% for post in site.posts %}
 {% capture currentyear %}{{ post.date | date: "%Y. %m" }}{% endcapture %}
 {% if currentyear != year %}
