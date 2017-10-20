@@ -10,13 +10,15 @@ isaalp.com’da yayınlanan tüm yazılar, altta listelenmiştir.
 
 
 
- <ul class="post-list">
-    {% for post in site.posts %}
-     <a href="{{ post.url | prepend: site.baseurl }}">
-     
-     <li class="post-box">
-         <span class="post-meta"><strong>{{ post.date | date: "%-d" }}</strong><br />{{ post.date | date: "%b" }}</span>
-         <h2 class="post-link">{{ post.title }}</h2>
-      </li></a>
+<ul class="post-list">
+    {% for post in paginator.posts %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <span class="post-meta"><small>{{ post.date | date: "%b %-d, %Y" }}</small></span>
+        </h2>
+         
+      </li>
+
     {% endfor %}
   </ul>
