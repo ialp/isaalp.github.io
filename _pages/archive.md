@@ -10,7 +10,7 @@ isaalp.com’da yayınlanan tüm yazılar, altta listelenmiştir.
 
 
 {% for post in site.posts %}
-{% capture currentyear %}{{ post.date | date: "%Y. %m" }}{% endcapture %}
+{% capture currentyear %}{{ post.date | {% endcapture %}
 {% if currentyear != year %}
 
   <h1>{{ currentyear }}</h1>
