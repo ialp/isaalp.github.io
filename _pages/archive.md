@@ -32,7 +32,7 @@ isaalp.com’da yayınlanan tüm yazılar, altta listelenmiştir.
     {% endif %}
     {% endunless %}
     <li>
-      <div style="width:60px;float:left;">  <time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time>  </div> <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
+      <div style="width:60px;float:left;">   {{ post.date | date: "%b %d %Y" }} </div> <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
     </ul>
 
