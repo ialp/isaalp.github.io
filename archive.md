@@ -15,7 +15,7 @@ title: Archive
     {% capture year %}{{ currentyear }}{% endcapture %}
   {% endif %}
 
-  <li>{{ post.date | date: "%m. %d" }} — <a href="{{ post.url }}">{{ post.title }}</a></li>
-      <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <li>{{ post.date | date: "%m. %d" }} — <a href="{{ post.url }}">{{ post.title }}</a>     <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span> </li>
+      
 
 {% endfor %}
