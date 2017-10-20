@@ -17,7 +17,7 @@ isaalp.com’da yayınlanan tüm yazılar, altta listelenmiştir.
     {% capture year %}{{ currentyear }}{% endcapture %}
   {% endif %}
 
-  <li>{{ post.date | date: "%m. %d .%Y" }} — <a href="{{ post.url }}">{{ post.title }}</a> </li>
+  <li><a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%m. %d .%Y" }} </li>
 
 {% endfor %}
 
