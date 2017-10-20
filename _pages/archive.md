@@ -9,31 +9,9 @@ isaalp.com’da yayınlanan tüm yazılar, altta listelenmiştir.
 
 
 
-
-<div class="archive">
-  <div class="timeline" id="timeline">
-    {% for post in site.posts %}
-    {% unless post.next %}
-    <div class="archive-title">
-      <h4 class="archive-year">{{ post.date | date: '%Y' }}</h4>
-    </div>
-
-    <ul>
-    {% else %}
-      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-    {% if year != nyear %}
-    </ul>
-    <div class="archive-title">
-      <h4 class="archive-year">{{ post.date | date: '%Y' }}</h4>
-    </div>
-
-    <ul>
-    {% endif %}
-    {% endunless %}
-    <li>
-      <div style="width:60px;float:left;">   {{ post.date | date: "%b %d %Y" }} </div> <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-    </ul>
-
-  </div>
+<div class="item {% if post.star %}star{% endif %}">
+    <a class="url" href="{{ site.url }}{{ post.url }}">
+        <aside class="date"><time datetime="{{ post.date | date:"%d-%m-%Y" }}">{{ post.date | date: "%b %d %Y" }}</time></aside>
+        <h3 class="title">{{ post.title }}</h3>
+    </a>
+</div>
