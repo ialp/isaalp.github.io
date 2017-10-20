@@ -4,7 +4,7 @@ title: Tüm Yazılar
 permalink: /tum-yazilar/
 ---
 
-Tüm Yazılar
+
 isaalp.com’da yayınlanan tüm yazılar, altta listelenmiştir.
 
 
