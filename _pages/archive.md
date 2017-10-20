@@ -4,9 +4,9 @@ title: Archive
 permalink: /archive/
 ---
 
+xxx
 
-
-<h1>Archive of posts from {{ page.date | date: "%B %Y" }}</h1>
+<h1>Archive of posts from {{ page.date | date: "%Y" }}</h1>
 
 <ul class="posts">
 {% for post in page.posts %}
