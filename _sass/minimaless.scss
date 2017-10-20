@@ -87,5 +87,6 @@ $content-height:   calc(100vh - #{$footer-height} - #{$header-height} - 121px);
 
 .archive ul li {
       font-size: 1em;
+  text-decoration:none;
 
   }
