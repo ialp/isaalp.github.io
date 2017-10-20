@@ -31,7 +31,7 @@ isaalp.com’da yayınlanan tüm yazılar, altta listelenmiştir.
     {% endif %}
     {% endunless %}
     <li>
-       <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>    - {{ post.date | date: "%d %b, %Y" }}</li>  
+       <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>    - {{ post.date | date: "%d %b %Y" }}</li>  
     {% endfor %}
     </ul>
 
