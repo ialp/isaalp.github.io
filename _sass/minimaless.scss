@@ -85,3 +85,8 @@ $content-height:   calc(100vh - #{$footer-height} - #{$header-height} - 121px);
 "minimaless/syntax-highlighting"
 ;
 
+.archive ul li {
+list-style-type: none;
+      font-size: 1em;
+
+  }
