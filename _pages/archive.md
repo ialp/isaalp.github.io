@@ -12,7 +12,7 @@ isaalp.com’da yayınlanan tüm yazılar, altta listelenmiştir.
 {% for post in page.posts %}
   <li>
     <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>                   <span class="meta__date">  {{ page.date | date: "%d.%m.%Y" }}</span> 
+    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>     a1              <span class="meta__date">  {{ page.date | date: "%d.%m.%Y" }}</span> 
 
   </li>
 {% endfor %}
