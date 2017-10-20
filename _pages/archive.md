@@ -1,10 +1,11 @@
 ---
 layout: page
-title: Archive
-permalink: /archive/
+title: Tüm Yazılar
+permalink: /blog/
 ---
 
-xxx
+Tüm Yazılar
+isaalp.com’da yayınlanan tüm yazılar, altta listelenmiştir.
 
 <h1>Archive of posts from {{ page.date | date: "%Y" }}</h1>
 
