@@ -7,11 +7,11 @@ baseurl: "/minimaless" # the subpath of your site, e.g. /blog
 url: "http://isaalp.com/minimaless" # the base hostname & protocol for your site, e.g. http://example.com
 
 website: http://isaalp.com
-github_username:  #
-linkedin_username: #
-twitter_username: #
-facebook_username: #
-keybase_username: #
+github_username:  1
+linkedin_username: 1
+twitter_username: 1
+facebook_username: 1
+keybase_username: 1
 
 # use Font Awesome icon names http://fontawesome.io/icons/
 links:
