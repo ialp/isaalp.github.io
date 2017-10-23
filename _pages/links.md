@@ -3,7 +3,8 @@ layout: contact
 title: Links
 permalink: /links/
 ---
-<center>Some of my recent work:</center>
+Bağlantılar
+Türkçe içerikli siteler italik olarak verilmiştir.
 
 {% include site-links.html %}
 
