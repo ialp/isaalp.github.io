@@ -25,3 +25,13 @@ permalink: /baglantilar/
 </li>
 </ul>
 
+<li>Latex
+<ul>
+<li><a href="http://tex.stackexchange.com/">Stackexchange Tex</a></li>
+<li><a href="http://detexify.kirelabs.org/">Detexify</a></li>
+<li><a href="http://www.scribtex.com/">Scribtex</a></li>
+<li><a href="http://docs.latexlab.org/">LaTeX Lab</a></li>
+<li><a href="http://www.texample.net/">Texample</a></li>
+<li><a href="http://www.tug.dk/FontCatalogue/">Font kataloğu</a></li>
+</ul>
+</li>
