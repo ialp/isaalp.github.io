@@ -3,8 +3,8 @@ author: GitHub User
 email: isa@isaalp.com
 description: >
   "isa,alp,isa alp,hello,turkey"
-baseurl: "/minimaless" # the subpath of your site, e.g. /blog
-url: "http://isaalp.com/minimaless" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://isaalp.com/" # the base hostname & protocol for your site, e.g. http://example.com
 
 website: http://isaalp.com
 github_username:  1
