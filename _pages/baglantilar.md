@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Bağlantılar
+title: Bağlantılar-Gereçler
 description: isa alp
 keywords: about page, about me
 permalink: /baglantilar/
@@ -35,3 +35,7 @@ permalink: /baglantilar/
 <li><a href="http://www.tug.dk/FontCatalogue/">Font kataloğu</a></li>
 </ul>
 </li>
+
+<h2> Gereçler</h2>
+<li><a href="http://isaalp.com/embedresponsively/">Embed Responsively</a></li>
+
