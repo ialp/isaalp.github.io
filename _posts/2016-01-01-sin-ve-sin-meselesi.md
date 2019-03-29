@@ -1,10 +1,6 @@
 ---
-title: SİN VE ŞIN MESELESİ
-tags:
-- News
-- Tags
-- Blog
-- Post
+layout: post
+tags: SİN VE ŞIN MESELESİ
 ---
 
  SİN VE ŞIN MESELESİ
